@@ -1,0 +1,141 @@
+html,body {
+    margin: 0;
+    padding:0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+.container{
+max-width: 1200px;
+margin: 0 auto;
+
+}
+
+.navbar {
+    width: 100%;
+    padding: 30px 0;
+    background:rgb(125, 231, 173);
+}
+
+.navbar .button {
+    background: transparent;
+    color:gray;
+    border:none;
+    font-size: 30px;
+}
+
+
+.content {
+
+    display: flex;
+    width: 100%;
+    padding-top: 40px;
+    overflow: hidden;
+}
+
+.aside {
+    flex: 1;
+   
+}
+
+.article {
+    flex: 3;
+    padding-left: 20px;
+    padding-right: 20px;
+  
+}
+
+.article .image {
+    width: 100%;
+    height: 250px;
+    border-radius: 40px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    margin: 0 0 30px;
+}
+
+.article .image img {
+    width: 100%;
+}
+ .article .title {
+     text-align: center;
+     font-family: sans-serif;
+
+}
+
+.article p {
+    margin-bottom: 30px;
+}
+
+.aside {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.aside .search .search-button {
+    background: rgb(6, 175, 82);
+    color:white;
+    border: 2px solid rgb(6, 175, 82);
+    padding: 5px;
+    border-radius: 15px;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    float: left;
+    
+}
+
+.aside .search .search-input {
+    border-radius: 10px;
+    padding: 5px;
+    border: 2px solid rgb(6, 175, 82);
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.aside .search .search-title {
+    font-size: 15px;
+    color: gray;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.menu {
+position: fixed;
+top: 0;
+right: 0;
+width: 20vw;
+height: 100vh;
+background: rgb(6, 175, 82);
+padding: 40px;
+transform: translateX(20vw);
+transition: .2s;
+}
+
+.menu.active {
+    transform: translateX(0);
+}
+
+.menu  .link {
+display: block;
+color: white ;
+font-size: 20pt;
+text-align: center;
+text-decoration: none;
+padding: 0 30px;
+margin-bottom: 50px;
+transition: .2s;
+}
+
+.link:hover {
+color: black;
+transform: scale(1.2,1.2);
+}
