@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.principal {
+    color: #2b2b2b;
+    font-size: 18px;
+    text-align: center;
+    font-family: arial, sans-serif;
+    font-style: bold;
+}
+
+.principal {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .pricipal:after {
+    content: '';
+    display: block;
+    height: 4px;
+    width: 130px;
+    background:#da9b3e;
+    margin: 0 auto;
+  }
+  
+
+h1 {
+    color:#da9b3e ;
+    text-align: center;
+    font-family: arial,sans-serif;
+    font-style:bold;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.titulo {
+        font-family: sans-serif;
+        text-align: center;
+      }
+      
+      .titulo:after {
+        content: '';
+        display: block;
+        height: 4px;
+        width: 130px;
+        background:white;
+        margin: 0 auto;
+      }
+      
+
+p {
+    font-size: 15px;
+    color: white;
+}
+
+#atend {
+    color: white;
+    font-size: 15px;
+}
+
+
+.container {
+    display: flex;
+    background-color:white;
+    grid-gap: 18px;
+    max-width: 960px;
+    margin:0 auto;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    background-color:#da9b3e;
+    min-height: 150px;
+    padding: 0px;
+    text-align: center;
+    border-top: 3px solid #4a412e;  
+}
+
+.formulario {
+    display: block;
+    background-color: #2a2a2a;
+    min-height: 100vh;
+  
+}
+
+input{
+    display:inline-block;
+    margin:10px;   
+    width: 450px;
+    height: 30px;
+}
+
+.nome-telefone {
+    margin-left: 210px;
+
+}
+
+.email-assunto {
+    margin-left: 210px; 
+}
+
+textarea{
+    display:inline-block;
+    margin-left: 220px; 
+    margin-bottom: 40px;
+
+    
+
+}
+

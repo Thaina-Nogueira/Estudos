@@ -1,0 +1,104 @@
+.formulario {
+background-color: #24323d;
+border-radius: 5px;
+border: solid 20px #bdb9b6;
+width: 350px;
+height: 350px;
+margin: auto;
+padding: 3rem;
+}
+
+.botoes {
+    display: flex;
+
+}
+
+.nomesobre {
+    display: flex;
+    grid-gap: 10px;
+    justify-content:center;
+}
+
+.botaosign {
+    display: inline-block;
+    background-color: #1ab188;
+    color: white;
+    font-size: 11pt;
+    font-family:sans-serif;
+    width: 200px;
+    padding: 10px;
+    border: solid #1ab188;
+    cursor: pointer;
+}
+
+.botaologin{
+    display: inline-block;
+    background-color: #43515a;
+    color:grey;
+    font-size: 11pt;
+    font-family:sans-serif;
+    width: 200px;
+    padding: 10px;
+    border: solid #43515a;
+    cursor: pointer;
+    
+}
+
+.botaoget {
+    display: inline-block;
+    background-color: #1ab188;
+    color: white;
+    font-size: 15pt;
+    font-family:sans-serif;
+    font-weight:bold;
+    width: 360px;
+    padding: 10px;
+    border: solid #1ab188;
+    cursor:pointer;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-family:sans-serif;
+}
+
+
+
+#fname {
+    background-color: #24323d;
+    padding: 10px;
+    width: 350px;
+    height: 0;
+  
+}
+
+#lname {
+    background-color: #24323d;
+    padding: 10px;
+    width:350px ;
+    height: 0;
+    
+}
+
+#email {
+    background-color: #24323d;
+    padding: 10px;
+    width: 350px;
+    height: 0;
+   
+}
+
+#password {
+    background-color: #24323d;
+    padding: 10px;
+   width: 350px;
+   height: 0;
+}
+
+.input {
+    padding: 10px 20px;
+    margin: 5px;
+
+}
+
