@@ -1,0 +1,52 @@
+
+
+body {
+    background:#ECDBBA ;
+}
+
+
+h1 {
+    color:#346751;
+    margin-top: 120px;
+    font-size: 40px;
+    text-align: center;
+
+
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#txtn1 {
+    margin: 20px;
+}
+
+#txtn2 {
+    margin:20px;
+}
+
+#button {
+    background: #C84B31;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    margin: 20px;
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+div#res {
+    margin-top: 20px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    color:#346751;
+    background: #161616;
+}
+
