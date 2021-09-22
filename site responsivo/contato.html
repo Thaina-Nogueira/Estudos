@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <button id="openmenu" class="button">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+
+        <nav class="menu">
+            <a href="index.html" class="link"> Home</a>
+            <a href="contato.html" class="link" id="contato"> Contato</a>
+        </nav>
+
+    </header>
+
+
+<div class="formContact container" >
+<form class="form2">
+    <h1 class="textC">Fale Conosco</h1>
+    <fieldset id="contact"><legend>Idenficação</legend>
+    <p><label for="cName">Nome:</p><input class="inp" type="text" id="cName" size="20" maxlength="30" placeholder="Nome Completo"></label>
+    <p><Label for="cEmail">Email:</p><input class="inp" type="email" id="cEmail" size="20" maxlength="40"></Label>  
+
+</fieldset>
+
+    <fieldset id="address"><legend>Endereço</legend>
+    <p><label for="cRoad">Logradouro:</p><input class="inp" type="text" id="cRoad" size="15"maxlength="80" placeholder="Rua,Av..."></label>
+    <p><label for="cNumber">Número:</p><input class="inp" type="number" id="cNumber" min="0" max="99999"></label>
+    <p><label for="cState">Estado:</label>
+        <select name="cSt" id="cState">
+            <option> Acre</option>
+            <option> Alagoas</option>
+            <option> Amapá</option>
+            <option> Amazonas</option>
+            <option> Bahia</option>
+            <option> Ceará</option>
+            <option> Distrito Federal</option>
+            <option> Espírito Santo</option>
+            <option> Goiás</option>
+            <option> Maranhão</option>
+            <option> Mato Grosso</option>
+            <option> Mato Grosso do Sul</option>
+            <option> Minas Gerais</option>
+            <option>Pará </option>
+            <option> Paraíba</option>
+            <option> Pernambuco</option>
+            <option> Piauí</option>
+            <option>Rio de Janeiro</option>
+            <option> Rio Grande do Norte</option>
+            <option selected> Rio Grande do Sul </option>
+            <option> Rondônia</option>
+            <option> Roraima</option>
+            <option> Santa Catarina</option>
+            <option> São Paulo</option>
+            <option> Sergipe</option>
+            <option> Tocantins</option>
+        </select>
+
+    <p><label for="cCity">Cidade:</p>
+    <select name="cCity" id="cCity">
+        <option> Pelotas</option select>
+        <option> Rio Grande</option>
+        <option> Porto Alegre</option>
+        <option> São Paulo</option>
+        <option> Salvador</option>
+        <option> Porto Alegre</option>
+
+        </select>
+</fieldset>
+
+    <fieldset id="msg"><legend> Mensagem</legend>
+    <p><label for="msg"></p></label>
+    <textarea name="message" id="msg" cols="40" rows="8" placeholder="Deixe aqui sua mensagem"></textarea>
+</fieldset>
+<button class="btn3">Enviar</button>
+
+</form>
+</div>
+
+<script>
+    let botao = document.querySelector('#openmenu');
+    let menu = document.querySelector('.menu');
+
+    function open() {
+        menu.classList.toggle('active');
+      
+    }
+
+    botao.addEventListener('click', open);
+  
+        
+    
+</script>
+
+    
+</body>
+</html>
+
