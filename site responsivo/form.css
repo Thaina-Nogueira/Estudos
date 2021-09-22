@@ -18,9 +18,9 @@ fieldset{
     font-weight: bold;
     background: white;
     color: rgb(105, 105, 105);
-    border-radius: 10px;
+    border-radius: 30px;
     padding: 5px;
-    border: 2px solid seagreen;
+    border: 2px solid #4AA96C;
     display: block;
     width: 100%;
     margin-bottom: 20px;
@@ -54,7 +54,7 @@ select {
 
 .btn3 {
     display: inline-block;
-    background:seagreen;
+    background:#4AA96C;
     width: 200px;
     color: white;
     font-family: sans-serif;
