@@ -82,16 +82,14 @@ margin: 0 auto;
     background: #4AA96C;
     color:white;
     font-weight: bold;
-    border: 2px solid #4AA96C;
     padding: 5px;
+    border:none;
     border-radius: 15px;
     display: block;
     width: 100%;
     cursor: pointer;
     float: left;
-    
 }
-
 
 .aside .search .search-input {
     border-radius: 10px;

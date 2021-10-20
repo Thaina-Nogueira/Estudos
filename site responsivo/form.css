@@ -16,7 +16,7 @@ border-radius: 10px;
 fieldset{
     font-family: sans-serif;
     font-weight: bold;
-    background: white;
+    background:white;
     color: rgb(105, 105, 105);
     border-radius: 30px;
     padding: 5px;
@@ -27,6 +27,7 @@ fieldset{
     outline: none;
 }
 
+
 legend {
     color:black;
     font-size: 18px;
@@ -35,7 +36,7 @@ legend {
 .inp {
     font-family: sans-serif;
     border: 2px solid #C1AC95;
-    width: 400px;
+    max-width: 100%;
     border-radius: 20px;
     padding:8px;
     margin-bottom: 20px;
@@ -45,7 +46,7 @@ legend {
 
 select {
     font-family: sans-serif;
-    border: 2px solid #C1AC95;
+    border: 2px solid #4AA96C;
     border-radius: 10px;
     padding:8px;
     margin-bottom: 10px;
@@ -68,13 +69,21 @@ select {
     text-decoration: none;
 }
 
+
 textarea {
-    border:#C1AC95 double 3px;
+    border: none;
+    width: 300px;
+    
+  
 }
 
 @media screen and  (min-width:768px){
 
     .form2{
         padding: 0 30%;
+    }
+
+    .inp {
+        width: 400px;
     }
 }
